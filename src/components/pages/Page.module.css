@@ -1,0 +1,45 @@
+/* Page.module.css */
+
+.header {
+  height: 3.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: brown; */
+}
+
+.content {
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(42, 147, 165);
+}
+
+.inner-content {
+  width: 98%;
+  background-color: rgb(73, 217, 217);
+  margin-top: 1rem;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth scroll;
+}
+
+.inner-content::-webkit-scrollbar {
+  width: 12px;
+}
+
+.inner-content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #6e6d6d;
+}
+
+.box {
+  margin: 1rem;
+  width: 15rem;
+  height: 15rem;
+  background-color: lightblue;
+  flex-shrink: 0;
+}

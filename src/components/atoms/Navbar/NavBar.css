@@ -1,0 +1,67 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+  align-items: center;
+  background: #1d2125;
+}
+.Right-Nav {
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+.Right-Menu-Bar {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.menu > div > div {
+  background: #1d2125;
+  color: white;
+}
+.menu > div button {
+  background: none;
+}
+.menu button {
+  background: none;
+  padding: 0px;
+  margin: 10px;
+  color: #fff;
+}
+.menu button:hover{
+    background: #474747;
+}
+#menu-button > button {
+  background: #22a8f6;
+  color: rgb(12, 12, 12);
+}
+.search-input input{
+  border-radius: 10px;
+  text-align: center;
+  padding:10px;
+  width: 220px;
+  border-radius: 10px;
+}
+.search-input > .search-icon {
+  width: 40px;
+  height: 30px;
+  margin:10px;
+  padding: 0;
+}
+.search-input svg {
+  top: 0;
+}
+.Left-Nav {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Left-Nav svg {
+  width: 25px;
+  height: 20px;
+  color: rgb(184, 183, 183);
+}
